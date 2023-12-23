@@ -1,0 +1,216 @@
+#faq_part{
+    background: #121212;
+    padding-top: 55px;
+    padding-bottom: 120px;
+    position: relative;
+}
+#faq_part h1{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.8px;
+width: 500px;
+position: relative;
+margin-bottom: 92px;
+}
+#faq_part h1::after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 14px;
+}
+#faq_part .all_faq_part_one{
+    display: flex;
+    justify-content: space-between;
+}
+#faq_part .faq_one{
+    display: flex;
+    gap: 42px;
+    width: 540px;
+}
+#faq_part .faq_one h4{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.8px;
+width: 70px;
+height: 70px;
+background: #FF4655;
+text-align: center;
+border-radius: 2px;
+}
+#faq_part .faq_one .faq_text{
+    width: 427px;
+}
+#faq_part .faq_one .faq_text h3{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+transition: 0.5s;
+}
+#faq_part .faq_one .faq_text h3:hover{
+    color: #FF4655;
+}
+#faq_part .faq_one .faq_text p{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#faq_part .faq_two{
+    display: flex;
+    gap: 42px;
+    width: 540px;
+}
+#faq_part .faq_two h4{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.8px;
+width: 70px;
+height: 70px;
+background: #FF4655;
+text-align: center;
+border-radius: 2px;
+}
+#faq_part .faq_two .faq_text h3{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+transition: 0.5s;
+}
+#faq_part .faq_two .faq_text h3:hover{
+    color: #FF4655;
+}
+#faq_part .faq_two .faq_text p{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 427px;
+}
+#faq_part .x_line{
+    width: 1320px;
+height: 1px;
+background: #666;
+}
+#faq_part .y_line{
+    width: 1px;
+height: 369px;
+background: #666;
+position: absolute;
+content: "";
+top: 204px;
+left: 768px;
+}
+#faq_part .all_faq_part_two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 76px;
+}
+#faq_part .faq_three{
+    display: flex;
+    gap: 42px;
+    width: 540px;
+}
+#faq_part .faq_three h4{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.8px;
+width: 70px;
+height: 70px;
+background: #FF4655;
+text-align: center;
+border-radius: 2px;
+}
+#faq_part .faq_three .faq_text{
+    width: 427px;
+}
+#faq_part .faq_three .faq_text h3{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+transition: 0.5s;
+}
+#faq_part .faq_three .faq_text h3:hover{
+    color: #FF4655;
+}
+#faq_part .faq_three .faq_text p{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#faq_part .faq_four{
+    display: flex;
+    gap: 42px;
+    width: 540px;
+}
+#faq_part .faq_four h4{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.8px;
+width: 70px;
+height: 70px;
+background: #FF4655;
+text-align: center;
+border-radius: 2px;
+}
+#faq_part .faq_four .faq_text{
+    width: 427px;
+}
+#faq_part .faq_four .faq_text h3{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+transition: 0.5s;
+}
+#faq_part .faq_four .faq_text h3:hover{
+    color: #FF4655;
+}
+#faq_part .faq_four .faq_text p{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

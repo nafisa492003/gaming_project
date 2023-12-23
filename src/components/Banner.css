@@ -1,0 +1,68 @@
+#banner{
+    background-image: url(../assets/bannerBG.png);
+    padding-top: 337px;
+    padding-bottom: 103px;
+}
+#banner .banner_text h4{
+    color: #FFF;
+font-family: Oswald;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.7px;
+}
+#banner .banner_text h1{
+    color: #FFF;
+font-family: Oswald;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: relative;
+}
+.banner_text h1::after{
+    position: absolute;
+   content: "";
+    width: 90px;
+    height: 4px;
+    background-color: #FFF;
+    right:695px;
+    bottom: 20px;
+}
+#banner .banner_text p{
+    color: #FFF;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 523px;
+margin-bottom: 48px;
+}
+#banner .banner_text button{
+    padding:13px 43px 13px 23px;
+    text-align: center;
+    color: #121212;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 5px;
+background-color: #FFF;
+}
+.double_right{
+    margin-left: 7px;
+}
+.banner_text button:hover{
+    background-color: #f76868 !important;
+}
+.social_icons{
+    margin-top: 257px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   color:#D9D9D9 ;
+   font-size: 35px;
+}

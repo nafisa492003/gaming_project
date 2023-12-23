@@ -1,0 +1,51 @@
+#popular{
+    background: #191919;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#popular h1{
+    color: #FFF;
+text-align: right;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.66px; 
+position: relative;
+}
+#popular h1::after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 178px;
+}
+#popular .img{
+    display: flex;
+   gap: 16px;
+}
+#popular .img .trend{
+    width: 651px;
+    height: 400px;
+    margin-top: 200px;
+}
+#popular .carousel-control-next-icon {
+    background-image: url("../assets/slide-right.png");
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 50px;
+}
+#popular .carousel-control-prev-icon {
+    background-image: url("../assets/slide-left.png");
+    position: absolute;
+    content: "";
+    left: 1265px;
+    bottom: 0;
+}
+#popular .carousel-indicators {
+    display: none;
+}

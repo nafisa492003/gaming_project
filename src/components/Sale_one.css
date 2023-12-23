@@ -1,0 +1,142 @@
+#sale_one{
+    background-color: #191919;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+#sale_one h1{
+    color: #FFF;
+text-align: right;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 2.66px;
+margin-bottom: 47px;
+position: relative;
+}
+#sale_one h1::after{
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 3px;
+    background-color: #FF4655;
+    bottom: 9px;
+    right: 85px;
+}
+#sale_one .sale_one_img{
+    display: flex;
+    gap: 19px;
+    margin-bottom: 60px;
+}
+#sale_one .sale_one_img .sale_imges h2{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 18px;
+}
+#sale_one .sale_one_img .sale_imges h3{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+#sale_one .sale_one_img .sale_imges .game_price{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+#sale_one .sale_one_img .sale_imges .game_price h4{
+    color: #FFF;
+font-family: Oswald;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #FF4655;
+padding: 4px 5px;
+}
+#sale_one .sale_one_img .sale_imges .game_price h5{
+    color: #666;
+text-align: center;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.96px;
+text-decoration: line-through;
+}
+#sale_one .sale_one_img .sale_imges .game_price h6{
+    color: #FFF;
+text-align: center;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#sale_one .catalog h2{
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+#sale_one .catalog_part{
+    background-color: #212121;
+    padding-top: 45px;
+    padding-bottom: 131px;
+}
+#sale_one .catalog_one{
+    width: 603px;
+    margin-left: 44px;
+}
+#sale_one .catalog_one h3{
+    color: #FF4655;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.6px;
+}
+#sale_one .catalog_one h4{
+    color: #FFF;
+font-family: Barlow Condensed;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+#sale_one .catalog_one p{
+    color: #666;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+#sale_one .catalog_one button{
+    background: #121212;
+    color: #FFF;
+font-family: Oswald;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#sale_one .catalog_part{
+    display: flex;
+   gap: 134px;
+   
+}
